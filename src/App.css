@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  
+}
+
+.app {
+  margin: 20px auto;
+  width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px ;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color:red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.task-details {
+  text-align: left;
+}
+
+.task-details button {
+  margin-top: 20px;
+}
+.todo-input{
+
+  border-width: 8px;
+  border-radius: 5px;
+  
+}
